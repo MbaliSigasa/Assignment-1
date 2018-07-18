@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner user_name = new Scanner(System.in);
+        //Scanner user_name = new Scanner(System.in);
 
         System.out.println("Please Enter Name: ");
         Scanner scanner = new Scanner(System.in);
@@ -50,7 +50,7 @@ public class Main {
 
         if (ComputerAge % 2 == 0)
             System.out.println("My age is an even number");
-        else if (ComputerAge % 1 == 0)
-            System.out.println("My age is an odd number");
+        else {
+            System.out.println("My age is an odd number");}
         }
     }
